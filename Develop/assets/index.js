@@ -214,7 +214,7 @@ gsap.to(".project-image img", {
 
 gsap.to(".team-intro-image img", {
     duration: 10,
-    "transform": "translateY(20px) rotateZ(-15deg)",
+    "transform": "translateY(20px) rotateZ(15deg)",
     ease: Power4.easeOut,
     scrollTrigger: {
         trigger: ".team-main",

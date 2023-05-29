@@ -424,11 +424,6 @@ nav {
     transform: rotateZ(0deg);
 }
 
-.team-intro-image img {
-    width: 650px;
-    padding-left: 30px;
-}
-
 
 .screen {
     position: absolute;
@@ -656,10 +651,12 @@ nav {
     flex-direction: row-reverse;
     gap: 2em;
     margin-bottom: 5em;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .team-intro-image img {
-    transform: translateY(0) rotateZ(0deg);
+    transform: translateY(0) rotateZ(0deg) scale(.9);
 }
 
 .team-info {
@@ -798,7 +795,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(-180deg, rgba(83, 39, 147, .7), rgba(66, 17, 169, .1));
+    background: linear-gradient(-180deg, rgba(66, 17, 169, .1), rgba(83, 39, 147, .7));
 }
 .footer-heading {
     margin-bottom: 2em;
@@ -1310,7 +1307,7 @@ nav {
     }
 
     .team-intro-image img {
-        width: 640px;
+        width: 400px;
     }
 
     .team-intro-image .screen {
@@ -1319,39 +1316,7 @@ nav {
 
     
 
-    /* -----------TEAM SECTION------------- */
-
-
-    .baud-team {
-        padding: 3em 0;
-    }
-
-    .baud-team h2 {
-        margin-bottom: 30px;
-    }
-
-    .meet-team {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .team-member {
-        padding: 15px;
-        padding-right: 30px;
-    }
-
-    .team-image {
-        width: 50px;
-        height: 50px;
-    }
-
-    .team-desc p:first-child {
-        font-size: 16px;
-    }
-    .team-desc p:last-child {
-        font-size: 12px;
-    }
+   
 
     /* --------------BRAND SECTION------------- */
 
