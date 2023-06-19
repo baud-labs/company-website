@@ -8,7 +8,7 @@ $(document).ready(function() {
             $(".logo-title p").css("color", "#26124F");
             $(".header-nav a").css("color", "#26124F");
             $(".header-socials a").css("color", "#26124F");
-            $(".slash").css("background-color", "#26124F");
+            $(".header-responsive i").css("color", "#26124F");
         } else {
             $("header").css("background-color", "transparent");
             $("header").css("backdrop-filter", "none");
@@ -16,7 +16,7 @@ $(document).ready(function() {
             $(".logo-title p").css("color", "white");
             $(".header-nav a").css("color", "white");
             $(".header-socials a").css("color", "white");
-            $(".slash").css("background-color", "white");
+            $(".header-responsive i").css("color", "white");
         }
        
     })
